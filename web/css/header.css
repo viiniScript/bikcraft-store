@@ -20,8 +20,8 @@
 
 .menu a {
     display: block;
-    background-color: #fff;
-    color: black;
+    background-color: var(--fundo-2);
+    color: var(--texto);
     padding: 1rem 2rem;
     border-radius: 4px;
     text-transform: uppercase;
@@ -29,6 +29,6 @@
 }
 
 .menu a:hover {
-    color: #900;
-    border-color: #e21;
+    color: var(--cor-primaria-escura);
+    border-color: var(--cor-primaria);
 }
